@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Timeline</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="main.css">
+</head>
+
+<!--  Need to convert to JSP  -->
+<body>
+	<div class="container">
+		<div class = "row">
+			<div class="header">
+			<!--  the image source will be coming from the DTO object passed to the JSP -->
+				<img src="https://pbs.twimg.com/profile_images/716283264881700865/voT_NePC_400x400.jpg" 
+				 alt="Responsive image" style = "width:10%; height : 10%">
+				<!-- H1 will be the username used for requesting the tweets.     -->
+			    <h1> Salesforce </h1>      
+			  </div>	
+		</div>
+		<div class="row">
+		<!--  the idea is the tweet text panel will be in a loop for 10 count. -->
+			<div class="panel panel-primary timeline-panel">
+			  <div class="panel-heading">Date and Time input</div>
+			  <div class="panel-body">tweet text
+			  </div>
+			</div>		
+		</div>
+	</div>
+      
+</body>
+</html>
